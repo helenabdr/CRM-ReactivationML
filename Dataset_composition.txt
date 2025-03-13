@@ -1,0 +1,34 @@
+TOOL_CLIENT - Client Registry
+
+CLIENT_ID: Client identification key - PK
+CLIENT_CREATE DATE: Date of client's first registration
+REGION: Location
+TRADE SECTOR: Client's trade sector identification code
+N_EMPLOYEES: Number of employees at the time of first registration
+ECONOMIC_POT: Client's estimated economic potential (How much can Client X spend in a year?) - 2
+ECO_POT_CLASS: Client's estimate economic potential class - 1
+RISK_CAT: Client's risk category - 4
+
+TOOL_SALES - Full phurchase history from 2017 to 2021 of the registered customer base
+
+YYYYMM: Year and month of purchase
+ITEM_ID: Purchased item's identification key 
+FLG_TOOL: Flag identifier of tool vs parts/materials - ?
+SALES_CHANNEL: Code for sales channel
+NET: Purchase amount - 2
+UNIT: Item sale unit ("P"=piece while other values represent other unspecified possible groupings) - ?
+FAMILY_CODE: Item's higher gerarchical grouping
+GROUP_CODE: Item's lower gerarchical grouping
+CLIENT_ID: Client identification key - FK
+CANCELLED: Flag identifier of a calcelled purchase - 4
+
+
+
+QUESTIONS:
+- PK of TOOL_SALES?
+- What is UNIT?
+- Ownership of data. GH private or public?
+
+
+TO DO:
+- Convert types of columns (to date)
