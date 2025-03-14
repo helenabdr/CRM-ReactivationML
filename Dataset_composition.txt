@@ -32,3 +32,34 @@ QUESTIONS:
 
 TO DO:
 - Convert types of columns (to date)
+
+
+
+Client Analysis
+	1.	Client Segmentation:
+        •	Group clients by ECONOMIC_POT and ECO_POT_CLASS to identify high-value vs. low-value clients.
+        •	Segment clients based on TRADE SECTOR and REGION to analyze purchasing behavior by industry and location.
+	2.	Client Growth & Retention:
+	    •	Track new client registrations over time (CLIENT_CREATE DATE).
+	    •	Identify repeat customers by analyzing multiple purchases over different YYYYMM periods.
+	3.	Risk Assessment:
+	    •	Analyze how RISK_CAT affects purchase behavior and spending patterns.
+	    •	Investigate whether high-risk clients spend differently than low-risk clients.
+
+Sales Analysis
+	4.	Sales Trends:
+	    •	Examine total sales over time (YYYYMM).
+	    •	Identify seasonal trends in NET purchase amounts.
+	5.	Sales Channel Performance:
+	    •	Compare NET sales across different SALES_CHANNEL codes.
+	6.	Cancellation Rate:
+	    •	Calculate the percentage of transactions marked as CANCELLED to understand order reliability.
+
+Product Analysis
+	7.	Top-Selling Items:
+        •	Identify the most purchased ITEM_ID based on total NET sales.
+        •	Analyze demand for different FAMILY_CODE and GROUP_CODE categories.
+	8.	Tool vs. Parts/Materials Analysis:
+	    •	If FLG_TOOL is defined, compare sales of tools vs. materials.
+	9.	Sales by Unit Type:
+	    •	Compare purchase frequency and revenue between UNIT values (e.g., pieces vs. bulk items).
