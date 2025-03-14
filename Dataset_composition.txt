@@ -13,10 +13,10 @@ TOOL_SALES - Full phurchase history from 2017 to 2021 of the registered customer
 
 YYYYMM: Year and month of purchase
 ITEM_ID: Purchased item's identification key 
-FLG_TOOL: Flag identifier of tool vs parts/materials - ?
+FLG_TOOL: Flag identifier of tool vs parts/materials - 2
 SALES_CHANNEL: Code for sales channel
 NET: Purchase amount - 2
-UNIT: Item sale unit ("P"=piece while other values represent other unspecified possible groupings) - ?
+UNIT: Item sale unit ("P"=piece while other values represent other unspecified possible groupings)
 FAMILY_CODE: Item's higher gerarchical grouping
 GROUP_CODE: Item's lower gerarchical grouping
 CLIENT_ID: Client identification key - FK
@@ -63,3 +63,7 @@ Product Analysis
 	    •	If FLG_TOOL is defined, compare sales of tools vs. materials.
 	9.	Sales by Unit Type:
 	    •	Compare purchase frequency and revenue between UNIT values (e.g., pieces vs. bulk items).
+
+
+Correlation dates
+Check repeted purchases
