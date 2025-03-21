@@ -67,3 +67,6 @@ Product Analysis
 
 Correlation dates
 Check repeted purchases
+
+
+The goal of the Machine Learning project is Identifying the clients with the highest propensity to be reactivated after a 2 year period without any purchase.
